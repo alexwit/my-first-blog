@@ -9,8 +9,6 @@ class Post(models.Model):
 	body = models.TextField()
 	date_published = models.DateTimeField('Date Published')
 	created_date = models.DateTimeField('Created Date')
-	
-
 
 	def __unicode__(self):
 		return self.title	
